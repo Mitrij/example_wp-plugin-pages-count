@@ -1,0 +1,390 @@
+.pce-form-wrapper
+{
+	background: #fff;
+	border-radius: 5px;
+	padding-top: 30px;
+}
+
+.pce-form-left-col,
+.pce-form-right-col
+{
+	padding: 15px 30px;
+}
+
+.pce-form-header
+{
+	font-family: Quicksand;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 0.005em;
+	text-align: left;
+	margin-bottom: 10px;
+	padding-left: 70px;
+}
+
+.pce-form-content
+{
+	display: flex;
+	width: 100%;
+}
+
+.pce-form-left-col,
+.pce-form-right-col
+{
+	width: 50%;
+}
+
+.pce-form-language-from-block input,
+.pce-form-language-to-block input
+{
+	width: 100%;
+	border: 1px solid gray;
+	border-radius: 3px;
+	padding: 10px;
+}
+
+.pce-form-language-to-block
+{
+	margin-top: 10px;
+}
+
+.pce-form-language-from-block .selectize-input
+{
+	
+}
+
+.pce-form-language-to-block .selectize-input
+{
+	padding: 5px 8px;
+}
+
+.pce-form-language-to-block .selectize-control.multi .selectize-input > div
+{
+	background: #CB2531;
+	border-radius: 3px;
+	color: #fff;
+	margin-bottom: 0px;
+}
+
+.pce-form-apostille-block
+{
+	margin-top: 10px;
+	font-family: Quicksand;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 0em;
+	text-align: left;
+	display: flex;
+	justify-content: space-between;
+}
+
+.pce-form-apostille-block-checkbox
+{
+	opacity: 0;
+	position: absolute;
+	
+	display: inline-block;
+	vertical-align: middle;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.pce-form-apostille-checkbox-label
+{
+	position: relative;
+}
+
+.pce-form-apostille-block-checkbox + .pce-form-apostille-checkbox-label:before
+{
+	content: '';
+	background: #fff;
+	border: 1px solid gray;
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	padding: 2px;
+	margin-right: 10px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+/*
+.pce-form-apostille-block-checkbox:checked + .pce-form-apostille-checkbox-label:before
+{
+	background: #CB2531;
+	box-shadow: inset 0px 0px 0px 2px #fff;
+}
+*/
+
+.pce-form-apostille-block-checkbox:checked + .pce-form-apostille-checkbox-label:after
+{
+	left: 4px;
+	top: 4px;
+	width: 10px;
+	height: 5px;
+	border-radius: 1px;
+	border-left: 4px solid #CB2531;
+	border-bottom: 4px solid #CB2531;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	content: '';
+	width: 12px;
+	position: absolute;
+	height: 9px;
+}
+
+.pce-form-apostille-block-i
+{
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	text-align: center;
+	border: 1px solid #CB2531;
+	border-radius: 10px;
+	line-height: 14px;
+	color: #CB2531;
+	font-size: 13px;
+	font-family: Quicksand;
+}
+
+.pce-form-files-block-dropzone-previews-container
+{
+	position: relative;
+}
+
+.pce-form-files-block-dropzone
+{
+	height: 120px;
+	margin-top: 10px;
+	border: 1px dashed gray;
+	padding: 10px;
+	cursor: pointer;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.pce-form-files-block-dropzone button
+{
+	min-width: auto;
+	width: 100%;
+	height: 30px;
+}
+
+.pce-form-files-block-dropzone-previews-container .dz-image
+{
+	display: none;
+}
+
+.pce-form-files-block-dropzone-previews-container .dz-size
+{
+	display: none;
+}
+
+.pce-form-files-block-dropzone-previews-container .dz-filename
+{
+	max-width: 90%;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.pce-form-files-block-dropzone-previews-container .dz-success-mark,
+.pce-form-files-block-dropzone-previews-container .dz-error-mark
+{
+	display: none;
+}
+
+.pce-form-files-block-dropzone-previews-container .dz-error-mark svg
+{
+	width: 15px;
+	height: 15px;
+}
+
+.pce-form-files-block-dropzone-previews-container .dz-error-mark svg > g > g
+{
+	fill: red;
+}
+
+.pce-form-amount-of-pages-block,
+.pce-form-translation-price-block,
+.pce-form-authentication-block,
+.pce-form-shipping-block,
+.pce-form-total-block,
+.pce-form-plus-vat-block,
+.pce-form-amount-including-vat-block
+{
+	display: flex;
+	justify-content: space-between;
+	font-family: Quicksand;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.pce-form-amount-of-pages-block
+{
+	margin-bottom: 20px;
+}
+
+.pce-form-order-button-block
+{
+	margin-top: 40px;
+}
+
+button.pce-form-order-button
+{
+	height: 40px;
+	min-width: auto;
+	width: 100%;
+}
+
+.pce-form-result-msg
+{
+	margin: 0 0 10px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+
+
+.pce-contact-name-input,
+.pce-contact-email-input,
+.pce-contact-comment-textarea
+{
+	padding: 10px;
+	margin-top: 10px;
+	width: 100%;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+.pce-contact-name-input:hover,
+.pce-contact-email-input:hover,
+.pce-contact-comment-textarea:hover
+{
+	box-shadow: 0px -1.81861px 164.584px rgba(228, 32, 56, 0.14), 0px -0.322274px 28.2774px rgba(228, 32, 56, 0.0778807), 0px -0.157985px 15.6414px rgba(228, 32, 56, 0.0621193), 0px -0.0624674px 7.29494px rgba(228, 32, 56, 0.0434026);
+	outline: none;
+	border-color: #CB2531;
+}
+
+.pce-contact-submit
+{
+	margin-right: 0;
+	margin-left: auto;
+	margin-top: 10px;
+	height: 40px;
+}
+
+/* -------------------------- */
+
+
+/* --- */
+.cmb-z-modal-x
+{
+	display: none;
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	z-index: 9999;
+}
+
+.cmb-z-modal-x.cmb-z-modal-x-open
+{
+	display: block;
+}
+
+.cmb-z-modal-x-content
+{
+	position: relative;
+	background-color: #fefefe;
+	margin: auto;
+	padding: 0;
+	max-width: 900px;
+	border: 1px solid #888;
+	width: 80%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	-webkit-animation-name: cmb-z-modal-x-animatetop;
+	-webkit-animation-duration: 0.4s;
+	animation-name: cmb-z-modal-x-animatetop;
+	animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes cmb-z-modal-x-animatetop
+{
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes cmb-z-modal-x-animatetop
+{
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+.cmb-z-modal-x-header
+{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 10px 10px;
+}
+
+.cmb-z-modal-x-header:after
+{
+	content: '';
+	position: absolute;
+	display: block;
+	border-bottom: 1px solid #e8e8e8;
+	width: 90%;
+	bottom: 1px;
+	margin: 0 auto;
+	left: 5%;
+}
+
+.cmb-z-modal-x-header-content
+{
+	width: calc(100% - 40px);
+	text-align: center;
+}
+
+.cmb-z-modal-x-close
+{
+	width: 40px;
+	text-align: center;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.cmb-z-modal-x-body
+{
+	padding: 10px 40px 40px;
+}
+
+@media (max-width: 767px)
+{
+	.cmb-z-modal-x-content
+	{
+		width: 95%;
+	}
+}

@@ -1,0 +1,196 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: pages-count/includes/phpoffice/PhpSpreadsheet/Calculation/FormulaParser.php:308
+#: pages-count/includes/phpoffice/PhpSpreadsheet/Calculation/FormulaParser.php:331
+#: pages-count/includes/phpoffice/PhpSpreadsheet/Calculation/FormulaParser.php:336
+#: pages-count/includes/phpoffice/PhpSpreadsheet/Calculation/FormulaParser.php:423
+#: pages-count/includes/phpoffice/PhpSpreadsheet/Calculation/FormulaParser.php:445
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-10 01:34+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: pages-count/includes/admin.php:12 pages-count/includes/admin.php:13
+msgid "Pages Count"
+msgstr ""
+
+#: pages-count/includes/ajax.php:22
+msgid "Something is wrong, please contact admin or support"
+msgstr ""
+
+#: pages-count/includes/ajax.php:80
+msgid "Something is wrong, please check all data"
+msgstr ""
+
+#: pages-count/templates/admin-main-page.php:11
+msgid "Page count plugin settings"
+msgstr ""
+
+#: pages-count/templates/admin-main-page.php:18
+msgid "Price settings"
+msgstr ""
+
+#: pages-count/templates/admin-main-page.php:21
+msgid "Plus VAT value"
+msgstr ""
+
+#: pages-count/templates/admin-main-page.php:25
+msgid "Apostille price"
+msgstr ""
+
+#: pages-count/templates/admin-main-page.php:29
+msgid "Authentication price"
+msgstr ""
+
+#: pages-count/templates/admin-main-page.php:33
+msgid "Shipping price"
+msgstr ""
+
+#: pages-count/templates/admin-main-page.php:37
+msgid "1-3 pages price"
+msgstr ""
+
+#: pages-count/templates/admin-main-page.php:41
+msgid "4-5 pages price"
+msgstr ""
+
+#: pages-count/templates/admin-main-page.php:47
+msgid "\"From Languages\" list"
+msgstr ""
+
+#: pages-count/templates/admin-main-page.php:50
+#: pages-count/templates/admin-main-page.php:77
+msgid "Add language"
+msgstr ""
+
+#: pages-count/templates/admin-main-page.php:52
+#: pages-count/templates/admin-main-page.php:79
+msgid "Add"
+msgstr ""
+
+#: pages-count/templates/admin-main-page.php:69
+#: pages-count/templates/admin-main-page.php:96
+msgid "Remove"
+msgstr ""
+
+#: pages-count/templates/admin-main-page.php:74
+msgid "\"To Languages\" list"
+msgstr ""
+
+#: pages-count/templates/admin-main-page.php:101
+msgid "Product settings"
+msgstr ""
+
+#: pages-count/templates/admin-main-page.php:105
+msgid "Product id"
+msgstr ""
+
+#: pages-count/templates/admin-main-page.php:111
+msgid "Save settings"
+msgstr ""
+
+#: pages-count/templates/pages-count-estimate-form.php:20
+msgid "Offer requests"
+msgstr ""
+
+#: pages-count/templates/pages-count-estimate-form.php:55
+msgid "with Apostille"
+msgstr ""
+
+#: pages-count/templates/pages-count-estimate-form.php:64
+msgid "Drag documents here"
+msgstr ""
+
+#: pages-count/templates/pages-count-estimate-form.php:66
+msgid "or"
+msgstr ""
+
+#: pages-count/templates/pages-count-estimate-form.php:68
+msgid "Browse"
+msgstr ""
+
+#: pages-count/templates/pages-count-estimate-form.php:80
+msgid "Number of pages"
+msgstr ""
+
+#: pages-count/templates/pages-count-estimate-form.php:85
+msgid "Translation price"
+msgstr ""
+
+#: pages-count/templates/pages-count-estimate-form.php:90
+msgid "Authentication"
+msgstr ""
+
+#: pages-count/templates/pages-count-estimate-form.php:95
+msgid "Apostille"
+msgstr ""
+
+#: pages-count/templates/pages-count-estimate-form.php:100
+msgid "Shipping"
+msgstr ""
+
+#: pages-count/templates/pages-count-estimate-form.php:105
+msgid "Total"
+msgstr ""
+
+#: pages-count/templates/pages-count-estimate-form.php:110
+msgid "Plus VAT"
+msgstr ""
+
+#: pages-count/templates/pages-count-estimate-form.php:115
+msgid "Amount including VAT"
+msgstr ""
+
+#: pages-count/templates/pages-count-estimate-form.php:120
+msgid "Order"
+msgstr ""
+
+##########################################################
+
+msgid "Something is wrong, email not sent"
+msgstr ""
+
+msgid "Translation request form"
+msgstr ""
+
+msgid "Translation product cart submit"
+msgstr ""
+
+msgid "Email settings"
+msgstr ""
+
+msgid "Email to send data to"
+msgstr ""
+
+msgid "Comment"
+msgstr ""
+
+msgid "Sent"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Comments"
+msgstr ""
+
+msgid "Send"
+msgstr ""
+
+msgid "Please contact us"
+msgstr ""
